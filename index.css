@@ -1,0 +1,456 @@
+#head{
+    width: 90%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    height:50px;
+    margin: auto;
+    
+  }
+  #navbar>button{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+  
+  }
+  #navbar>button:hover{
+    color: #fe5c74;
+  }
+  #navbar>button{
+    cursor: pointer;
+  }
+  #first{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 550px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+
+  }
+  #first>div>img{
+    max-width: 100%;
+     height: auto;
+  }
+  #first>div>p{
+    text-align: center;
+    font-size: 25px;
+  }
+  #makeup{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+  }
+  #makeup>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #makeup>p{
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+  }
+  #makeup>div>p{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  #makeupimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    margin-top: 200px;
+    gap: 10px;
+  }
+
+  #makeupimg>div>p{
+    text-align: center;
+    font-size: 20px;
+  }
+  #haircare{
+    height: 800px;
+    background-color: #fe5c74
+  }
+  #haircare>p{
+    text-align: center;
+   padding-top: 25px;
+    font-size: 40px;
+    color: white;
+  }
+  #haircare>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #haircare>div>img{
+    padding-left: 50px;
+  }
+  #haircare>div>p{
+    font-size: 25px;
+    background-color: white;
+    height:205px;
+    width:40%;
+    border-radius: 10px;
+  }
+  #hairstyle{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #hairstyle>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #hairstyle>div>p{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  #hairstyle>p{
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+  }
+  #hairstyleimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    height: 350px;
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  #hairstyleimg>div>p{
+    text-align: center;
+    font-size: 20px;
+  }
+  #skincare{
+    height: 800px;
+    background-color: #fe5c74;
+  }
+  #skincare>p{
+    text-align: center;
+   padding-top: 25px;
+    font-size: 40px;
+    color: white;
+  }
+  #skincare>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+  }
+  #skincare>div>img{
+    padding-left: 50px;
+  }
+  #skincare>div>p{
+    font-size: 25px;
+    background-color: white;
+    height:205px;
+    width:40%;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .skincarediv{
+    padding-top: 25px;
+  }
+  .skincarediv>h3{
+    background-color: white;
+    height:50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  #health{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px
+  }
+  #health>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #health>div>p{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  #health>p{
+    text-align: center;
+   padding-top: 25px;
+    font-size: 40px;
+  }
+  #healthimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    height: 350px;
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    margin-bottom:100px;
+  }
+
+  #healthimg>div>p{
+    text-align: center;
+    font-size: 20px;
+  }
+  #healthimg>div{
+    padding-top: 50px;
+  }
+  #press{
+    height: 100px;
+    width:80%;
+    margin:auto;
+  }
+  #press>p{
+    text-align: center;
+    font-size: 40px;
+  }
+  #pressimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    height: 150px;
+    grid-gap: 30px;
+    width: 85%;
+    margin: auto;
+  }
+  #pressimg>div>p{
+    text-align: center;
+    font-size: 25px;
+  }
+  #Productreview{
+    height: 700px;
+    background-color: #fe5c74;
+  margin-top: 200px;
+  }
+  
+  #productreviewgrid{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+    height: 300px;
+    gap: 30px;
+    margin-top: 50px;
+    width:90%;
+    margin:auto;
+  }
+  #Productreview>p{
+    height:50px;
+    text-align: center;
+   padding-top: 25px;
+    font-size: 40px;
+    color: white;
+
+  }
+  #productreviewgrid>div>img{
+    max-width: 100%;
+     height: auto;
+     border-radius: 10px;
+
+  }
+  #productreviewgrid>div>p{
+    height:100px;
+    text-align: center;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:beige;
+    font-size: 25px;
+    border-radius: 8px;
+  }
+  #productreviewgrid>div>button{
+    margin-bottom: 150px;
+    background-color: beige;
+    color:#fe5c74;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 25px;
+  }
+#medicalreview>p{
+  text-align: center;
+  font-size: 40px;
+  height:50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+#medicalreviwdiv{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: (2,auto);
+  width: 80%;
+  height:300px;
+  margin: auto;
+}
+#medicalreviwdiv>div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#medicalreviwdiv>div>img{
+  width: 120px;
+  height: 120px;
+}
+#medicalreviwdiv>div>h2{
+  color:#fe5c74;
+  font-size: 20px;
+  margin-left: 10px;
+ 
+}
+#details{
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+    }
+    #meet{
+      display: block;
+      text-align: center;
+    }
+    #meet>button{
+      padding:20px 50px 20px 50px;
+      background-color: #fe5c74;
+      color: white;
+      font-size: 20px;
+      border: 0px;
+      border-radius: 5px;
+    }
+    #meet>button>a{
+      text-decoration: none;
+      color: white;
+    }
+
+    #testimonials{
+      font-size: 40px;
+      text-align: center;
+      height: 50px;
+      width: 80%;
+      margin: auto;
+    }
+    #testimonialsdata{
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-template-rows: auto;
+      width: 80%;
+      margin: auto;
+      gap: 15px;
+      height: 300px;
+      
+    }
+    #testimonialsdata>div>h2{
+      color: #fe5c74;
+      font-size: 20px;
+      text-align: center;
+    }
+    #testimonialsdata>div>p{
+      font-style: italic ;
+    }
+    
+    .pages{
+      margin-top: 50px;
+     margin-left: 30%;
+     height: 100px;
+     border-radius: 10px;
+     cursor: pointer;
+  }
+  #box7{
+      background-color: whitesmoke;
+      height: 300px;
+      width: 100%;
+      margin-top: 250px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      
+  }
+  
+  #box7 div{
+      margin-top: 10px;
+  }
+  #box7 a{
+      text-decoration: none;
+      color: black;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 20px;
+
+  }
+  .sites{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #box7 a:hover{
+      color: teal;
+      text-decoration: underline;
+  }
+  
+  .a1{
+     
+      height: 50px;
+      width: 150px;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 40px;
+     
+      
+  }
+  .b{
+     
+      width: 80%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      gap: 10px;
+  }
+  .b img{
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+  }
+  #box8{
+      margin-top: -22px;
+      height: 150px;
+      width: 100%;
+      background-color: gainsboro;
+  }
+  #box8>h4{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    
+  }
+  #box8 a{
+      color: #f67;
+      text-decoration: none;
+  }
+#box8 img{
+    margin-top: -10px;
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+#box8 h5{
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+ #box8a{
+     display: flex;
+ }
+ .a11{
+     margin-left: 140px;
+     font-family: 'Poppins', sans-serif;
+ }
+
