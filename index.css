@@ -1,3 +1,4 @@
+
 #head{
     width: 90%;
     height: 50px;
@@ -19,11 +20,15 @@
     font-size: 20px;
   
   }
-  #navbar>button:hover{
+  #navbar>button>a:hover{
     color: #fe5c74;
   }
   #navbar>button{
     cursor: pointer;
+  }
+  #navbar>button>a{
+    text-decoration: none;
+    color: black;
   }
   #first{
     display: grid;
