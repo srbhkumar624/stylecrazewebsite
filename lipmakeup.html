@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIP MAKE UP</title>
+    <script src="https://kit.fontawesome.com/9861c025d8.js" crossorigin="anonymous"></script>
+    <style>
+        #head{
+    width: 90%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    height:50px;
+    margin: auto;
+    
+  }
+  #navbar>button{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+  
+  }
+  #navbar>button>a:hover{
+    color: #fe5c74;
+  }
+  #navbar>button{
+    cursor: pointer;
+  }
+  #navbar>button>a{
+    text-decoration: none;
+    color: black;
+  }
+        h1{
+            text-align: center;
+        }
+        hr{
+            width: 8%;
+            border: 0.5px solid red;
+            text-align: center;
+            margin-top: -15px;
+            margin-bottom: 30px;
+            
+        }
+        #makeupoption {
+            display: grid;
+            width: 80%;
+            grid-template-columns:repeat(6,1fr);
+            grid-template-rows: repeat(2,50px);
+            gap: 20px;
+            margin: auto;
+        }
+        button{
+            border: 1px solid rgb(255, 115, 0) ;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: rgb(235, 77, 77);
+        }
+        #intropic{
+            display: flex;
+            width: 80%;
+           
+            height: 700px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 40px;
+
+        }
+        #bigpic{
+            width: 60%;
+            height: 100%;
+            
+            
+        }
+        #first{
+            height: 100%;
+            width: 100%;
+        }
+        #aboutpic{
+           
+            width: 40% ;
+            height: 100%;
+            background-color: #f9f9f9
+           
+            /* text-align: center; */
+            /* margin-top: px; */
+        }
+        #aboutpic>div{
+            margin: auto;
+            margin-top: 60%;
+            padding-right: 20px;
+            padding-left: 20px;
+            line-height: 30px;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+        #aboutpic>h4{
+            margin-top: 30%;
+            color:rgb(112, 111, 111);
+            margin-left: 10px;
+            
+        }
+        #firstrow{
+            width: 80%;
+            height: 500px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,auto);
+            
+            gap: 20px;
+            margin: auto;
+            
+            margin-top: 40px;
+            text-align: center;
+        }
+        #firstrow>div>img{
+            width: 100%;
+            height: 70%;
+        }
+        h4{
+            text-align: start;
+            
+            font-weight: normal;
+            margin-left: 10px;
+           color: rgb(112, 111, 111);
+        }
+        #last{
+            width: 100%;
+            height: 300px;
+            background-color: red;
+        }
+        #lastrow{
+           
+            width: 80%;
+            height: 1100px;
+            margin: auto;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: auto;
+            grid-template-columns: auto;
+            
+            grid-template: "a b c"
+                            "d e f";
+           
+        }
+        #lastrow>div>img{
+            width: 100%;
+            height: 70%;
+        } 
+        #lastrow>div:nth-child(1) {
+        grid-area: a;
+      }
+
+      #lastrow>div:nth-child(2) {
+        grid-area: b;
+      }
+
+      #lastrow>div:nth-child(3) {
+        grid-area: c;
+      }
+
+      #lastrow>div:nth-child(4) {
+        grid-area: d;
+      }
+      #lastrow>div:nth-child(5) {
+        grid-area: e;
+      }
+      
+      #lastrow>div:nth-child(6) {
+        grid-area: f;
+      }
+      #lastpannel{
+          width: 100%;
+          background-color: #f2f2f2;
+          height: 230px;
+          display: flex;
+          padding-top: 30px;
+          justify-content: space-evenly ;
+          
+
+          
+          
+      }
+      
+      a{
+          color:black;
+          text-decoration: none;
+      }
+      #icom{
+          display: flex;
+      }
+      #copyright{
+          width: 100%;
+          height: 150px;
+          background-color: #e6e6e6;
+      }
+      #copyright>h3{
+          text-align: center;
+          margin-top: -15px;
+          padding-top: 10px;
+      }
+      spam{
+        color:red
+      }
+      #copyright>p{
+
+          padding-left: 15px;
+          padding-right: 15px;
+          line-height: 20px;
+      }
+      #click{
+          color: red;
+      }
+      i{
+          margin-right: 40px;
+          padding-top: 10px;
+      }
+       #page{
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          margin-left: 30%;
+          margin-bottom: 30px;
+      }
+      .back{
+          font-size: 20px;
+          margin-left: 70px;
+          color: #fe5c74;
+      }
+      .two{
+        font-size: 20px;
+         margin-left:-30px;
+          color: #fe5c74;
+      }
+        
+
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div id="head">
+        <img src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt="">
+          </div>
+          <div id="navbar">
+            <button><a href="makeup.html">MAKEUP</a></button>
+            <button><a href="hair care.html">HAIR CARE</a></button>
+            <button><a href="skincare.html">SKIN CARE</a></button>
+            <button><a href="hairstyles.html">HAIR STYLE</a></button>
+            <button><a href="healthandwellnes.html">HEALTH & WELLNESS</a></button>
+            <button><a href="news.html">NEWS</a></button>
+            <button><a href="tools.html">TOOLS</a></button>
+            <button><a href="product_page.html">PRODUCTS</a></button>
+          </div>  
+          <a class="back" href="makeup.html">Make Up</a><i class="fa-solid fa-angles-right"></i><a href="lipmakeup.html" class="two">LipMake Up</a>
+    <h1 >LIP MAKE UP</h1>
+    <hr>
+ 
+    <div id="intropic">
+        <div id="bigpic"><img id="first" src="https://cdn2.stylecraze.com/wp-content/uploads/2014/09/5-Amazing-Tips-To-Avoid-Lipstick-Stains-On-Glasses-And-Collars-720x810.jpg.webp"big picture"/></div>
+        <div id="aboutpic">
+            
+            <div><h3>5 Amazing Ways To Prevent 
+                Lipstick Stains On Glasses &</h3>
+                <p>Many of us believe that when it comes to
+                     makeup – eyes are the focal point. But,
+                      we cannot really ignore our lips! Beautiful
+                       lips can make any makeup look appear stunning 
+                       and alluring. They can give you a bold […]
+
+                </p>
+                </div>
+                <h4 >BY JYOTSANA RAO
+
+                </h4>
+        </div>
+    </div>
+<div id="firstrow">
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/08/1167_DIY-%E2%80%93-How-To-Colour-Your-Lips-Pink-With-Beetroot_shutterstock_52284313.jpg.webp">
+        <h2>DIY – How To Colour Your Lips Pink With Beetroot
+        </h2>
+        <h4>BY Eisa Saxana</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2012/06/A-Complete-History-Of-Lipsticks-1.jpg.webp">
+        <h2>A Complete History Of Lipsticks
+        </h2>
+        <h4>BY NISHA BAGHADIA</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/08/1735-Top-10-Lipstick-Shades-For-Women-With-Dusky-Skin-is.jpg">
+        <h2>Top 10 Lipstick Shades For
+             Women With Dusky Skin</h2>
+        <h4>BY JYOTSANA RAO
+        </h4>
+    </div>
+</div>
+<div id="intropic">
+    <div id="aboutpic">
+        
+        <div><h3>How To Get The Perfect Lip Shape:
+             A Step-By-Step Tutorial
+        </h3>
+            <p>A perfect lips’ shape means a perfect pout!
+                 But unfortunately, not all of us are blessed 
+                 with it. While every lip shape has its beauty
+                 , thin or uneven ones can be a
+                 bit tricky to work with. But worry not, […]</p>
+            </div>
+            <h4 >BY ESHA SAXENA</h4>
+
+    </div>
+    <div id="bigpic">
+        <img id="first" src="https://cdn2.stylecraze.com/wp-content/uploads/2014/08/How-To-Get-The-Perfect-Lip-Shape-A-Step-By-Step-Tutorial-1-720x810.jpg.webp" alt="big picture"/>
+    </div>
+
+</div>
+<div id="lastrow">
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/07/5-New-Ways-To-Wear-A-White-Eye-Liner-2.jpg.webp">
+        <h2>5 New Ways To Wear
+             A White Eye Liner</h2>
+        <h4> BY Nisha Baghadia</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/07/1767-Attractive-Makeup-Tips-For-Different-Lip-Shapes-is.jpg.webp">
+        <h2>7 Attractive Makeup Tips For
+             Different Lip Shapes</h2>
+        <h4> BY Nisha Baghadia</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/07/3041-How-To-Prevent-Lipstick-From-Smudging-ss.jpg.webp">
+        <h2>How To Prevent Lipstick From Smudging</h2>
+            <h4>BY JYOTSANA RAO</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2013/05/How-To-Wear-Black-Lipstick.jpg.webp">
+        <h2>How To Wear Black Lipstick</h4>
+             <h4>BY Esha Saxena</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2012/06/How-To-Make-Your-Own-Lip-Balms-At-Home-Top-15-DIYs.jpg.webp">
+        <h2>How To Make Your Own Lip Balms At Home – Top 15 DIYs</h2>
+            <h4>BY Esha Saxena</h4>
+    </div>
+    <div>
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2013/07/2640-How-To-Apply-Lip-Gloss-Perfectly-ss.jpg.webp">
+        <h2>How To Apply Lip Gloss Perfectly – Step By Step
+            </h2>
+            <h4>BY JYOTSANA RAO</h4>
+    </div>
+    
+</div>
+<img id="page" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKspenKcTgH7Z60S_E2Ttoe1h1YZg4L9VUBxuYVK5oN0S_4dVe" alt="">
+<div id="lastpannel">
+    <div>
+        <p><a href="">About Us</a></p>
+        <p><a href="">Image Usage Policy</a></p>
+        <p><a href="">Contact Us</a></p>
+        <p><a href="">Editorial Guidelines</a></p>
+        <p><a href="">Join Our Medical Board</a></p>
+        <p><a href="">Press Room</a></p>
+    </div>
+    <div>
+        <p><a href="">Advertise With Us</a></p>
+        <p><a href="">Privacy Policy</a></p>
+        <p><a href="">Privacy Policy</a></p>
+        <p><a href="">Affiliate Disclosure</a></p>
+        <p><a href="">Cookie Policy</a></p>
+        <p><a href="">Manage subscription</a></p>
+    </div>
+    <div>
+        <h2>Follow us</h2>
+        <div id="icon">
+            <a href=""></a>
+            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <div>
+        <h2>Our Sister Sites</h2>
+        <p><a href="">MomJunction</a></p>
+        <p><a href="">The BridalBox</a></p>
+        <p><a href="">Skinkraft</a></p>
+        <p><a href="">Vedix</a></p>
+    </div>
+</div>
+<div id="copyright">
+    <h3>Copyright © 2011 - 2022 <spam>Incnut Digital.</spam> All rights reserved.</h3>
+    <p>StyleCraze provides content of general nature that is designed for informational purposes only. The content is not intended to be a substitute for professional medical advice, diagnosis, or treatment.
+        </p>
+        <p id="click"> Click here for additional information </p>
+</div>
+
+
+</body>
+</html>
