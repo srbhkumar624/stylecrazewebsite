@@ -120,48 +120,7 @@ span{
     font-size: 17px;
     outline-color:#fe5c75;
 }
-/* Medium screens */
-@media only screen and (min-width: 421px) and (max-width: 780px){
-  .container{
-      grid-template-columns: repeat(2,1fr);
-  }
-}
-/* small screens */
-@media only screen and (min-width: 70px) and (max-width: 420px){
-  .container{
-      grid-template-columns: repeat(1,1fr);
-  }
-  #filter{
-      margin-left: 20px;
-  }
-}
-/* Ipad screen */
-@media only screen and (min-width:820px) and (max-width:1180px){
-  .container{
-      grid-template-columns: repeat(3,1fr);
-  }
-  #filter{
-      margin-left: 40px;
-  }
-}
-/* Ipad mini screen */
-@media only screen and (min-width:768px) and (max-width:1024px){
-.container{
-    grid-template-columns: repeat(3,1fr);
-}
-#filter{
-    margin-left: 40px;
-}
-}
-/* surface duo screen */
-@media only screen and (min-width:540px) and (max-width:720px){
-.container{
-    grid-template-columns: repeat(2,1fr);
-}
-#filter{
-    margin-left: 20px;
-}
-}
+
 /* Footer */
 .pages{
       margin-top: 50px;
@@ -177,6 +136,7 @@ span{
       margin-top: 50px;
       display: grid;
       grid-template-columns: repeat(4,1fr);
+      grid-template-rows: auto;
       
   }
   
@@ -214,6 +174,7 @@ span{
       margin: auto;
       display: grid;
       grid-template-columns: repeat(5,1fr);
+      grid-template-rows: auto;
       gap: 10px;
   }
   .b img{
@@ -253,3 +214,45 @@ span{
      margin-left: 140px;
      font-family: 'Poppins', sans-serif;
  }
+ /* Medium screens */
+@media only screen and (min-width: 421px) and (max-width: 780px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  /* small screens */
+  @media only screen and (min-width: 70px) and (max-width: 420px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #filter{
+        margin-left: 20px;
+    }
+  }
+  /* Ipad screen */
+  @media only screen and (min-width:820px) and (max-width:1180px){
+    .container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #filter{
+        margin-left: 40px;
+    }
+  }
+  /* Ipad mini screen */
+  @media only screen and (min-width:768px) and (max-width:1024px){
+  .container{
+      grid-template-columns: repeat(3,1fr);
+  }
+  #filter{
+      margin-left: 40px;
+  }
+  }
+  /* surface duo screen */
+  @media only screen and (min-width:540px) and (max-width:720px){
+  .container{
+      grid-template-columns: repeat(2,1fr);
+  }
+  #filter{
+      margin-left: 20px;
+  }
+  }
