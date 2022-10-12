@@ -253,6 +253,9 @@ var product_data = [
 
     function displayData(product_data){
         document.querySelector(".container").innerHTML = "";
+        document.getElementById("head").addEventListener("click",()=>{
+            window.location.href = "index.html";
+        })
         console.log(product_data);
         product_data.map(function(elem){
             var box = document.createElement("div");

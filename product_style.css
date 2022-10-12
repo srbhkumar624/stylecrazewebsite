@@ -11,34 +11,34 @@
       height: 40px;
       text-align: center;
   }
-  #navbar{
+  /* #navbar{
     display: flex;
     justify-content: space-between;
     width:70%;
     height:50px;
     margin: auto;
     
-  }
-  #navbar>button{
+  } */
+  /* #navbar>button{ */
     /* border: 0px; */
-    border: none;
+    /* border: none; */
  /*------Button css for vertical lines  start-------------*/
-        border-left-style: solid;
+        /* border-left-style: solid;
         border-left-color: #fe5c74;
-        border-width: 2.5px;
+        border-width: 2.5px; */
         /* height: 27px; */
-        padding-left: 10px;
-        padding-right: 10px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
 /*-------Button css for vertical lines  end---------------*/
-    background-color: white;
+    /* background-color: white;
     font-size: 20px;
-  }
+  } */
  /*------Button css for vertical lines start--------------*/
- #navbar>#firstbtn{
+ /* #navbar>#firstbtn{
     border: none;
-}
+} */
 /* ------Button css for vertical lines end----------------*/
-  #navbar>button>a:hover{
+  /* #navbar>button>a:hover{
     color: #fe5c74;
   }
   #navbar>button{
@@ -47,8 +47,42 @@
   #navbar>button>a{
     text-decoration: none;
     color: black;
-  }
+  } */
 
+  #navbar{
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+  height:50px;
+  margin: auto;
+  margin-bottom: 10px;
+  
+}
+.line{
+  height: 20px;
+  width: 0px;
+  background-color: #f67;
+  color: #f67;
+  margin-top: 15px;
+  border: 1px solid;
+}
+#navbar>button{
+  border: 0px;
+  background-color: white;
+  font-size: 20px;
+
+}
+#navbar>button>a:hover{
+  color: #fe5c74;
+}
+#navbar>button{
+  cursor: pointer;
+}
+#navbar>button>a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
 /*------------------- Navbar end *--------------------------*/
   h1{
     text-align: center;
